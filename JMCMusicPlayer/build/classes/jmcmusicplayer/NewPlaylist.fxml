@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="147.0" prefWidth="247.0" style="-fx-background-color: #343a40;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jmcmusicplayer.NewPlaylistController">
+   <children>
+      <Button fx:id="btnOK" defaultButton="true" layoutX="71.0" layoutY="94.0" mnemonicParsing="false" onAction="#btnOK_OnAction" prefHeight="37.0" prefWidth="105.0" style="-fx-background-color: #ff4d4d;" text="OK" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="38.0" layoutY="14.0" text="Enter new playlist name:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textName" layoutX="36.0" layoutY="48.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<!--
+ Name: Reece Pieri
+ ID: M087496
+ Date: 30/11/2020
+ Course: Java III
+ Assessment: AT3 Project
+-->
+
+<html>
+    <head>
+        <title>JMC Music Player: How-To Guide</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./stylesheet.css">
+    </head>
+
+    <body>
+        <!-- Heading/title -->
+        <div class="flex-container">
+            <div class="header">
+                <h1>JMC Music Player: How-To Guide</h1>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div>
+            <p>
+                JMC Music Player<br><br>
+                Created by Reece Pieri (M087496). 2/12/2020.<br>
+                South Metropolitan TAFE, Diploma of Software Development, Java III - Project<br><br>
+                The JMC Music Player is an MP3 media player application designed to allow Jupiter Mining Corporation<br>
+                employees to log into the music player client and play their favourite music from any PC on the JMC network.<br>
+                User credentials are verified on a central server and upon successful login, granted access to the music player.<br><br>
+                Please see the How-To Guide (Help > How-To Guide) for assistance in operating the application.<br><br>
+                Please forward feedback and bug reports to <rpieri@live class="com au">rpieri@live.com.au.</rpieri@live>
+            </p>
+        </div>
+        <br>
+
+        <!-- Page contents -->
+        <div>
+            <hr>
+            <h2>Contents</h2>
+            <ul id="contents">
+                <h4>Logging In</h4>
+                <li><a href="#Login">How to login</a></li>
+                <li><a href="#SignUp">How to sign up</a></li>
+                <h4>Loading & Saving</h4>
+                <li><a href="#LoadPlaylist">How to load a Playlist</a></li>
+                <li><a href="#SavePlaylist">How to save a Playlist</a></li>
+                <li><a href="#SavePlaylistAs">How to save Playlist as...</a></li>
+                <h4>Playlists</h4>
+                <li><a href="#CreatePlaylist">How to create a playlist</a></li>
+                <li><a href="#AddSongs">How to add songs to a playlist</a></li>
+                <li><a href="#RemoveSongs">How to remove songs from a playlist</a></li>
+                <li><a href="#ClearPlaylist">How to clear songs from a playlist</a></li>
+                <h4>Player Controls</h4>
+                <li><a href="#PlaySong">How to play songs</a></li>
+                <li><a href="#SkipSong">How to switch songs</a></li>
+                <h4>Known Bugs</h4>
+                <li><a href="#Bugs">Known bugs</a></li>
+            </ul>
+            <hr>
+        </div>
+        <br>
+
+        <!-- How-to guide -->
+        <div class="body">
+            <!-- Logging into the music player -->
+            <div>
+                <div>
+                    <img src="./Images/Login.png">
+                </div>
+
+                <div>
+                    <h1>Logging In</h1>
+                </div>
+                
+                <div id="Login">
+                    <h3>Logging into the Music Player</h3>
+                    <p>
+                        To login to the music player, on the login screen enter the server IP and fill in the input<br>
+                        fields under the "Login" heading, then click 'Login'.<br>
+                        If login is successful the music player will open.
+                    </p>
+                </div>
+                <br>
+
+                <div id="SignUp">
+                    <h3>Signing Up</h3>
+                    <p>
+                        To sign up for an account, on the login screen enter the server IP and fill in the input<br>
+                        fields under the "Sign Up" heading, then click 'Sign Up'.<br>
+                    </p>
+                </div>
+                <br>
+
+                <div id="SaveCSVAs">
+                    <h3>Saving CSV files as...</h3>
+                    <p>
+                        To save a CSV file to a new file/location, go to File > Save CSV As.<br>
+                        A Save File dialog will appear and allow the user to select a file to overwrite or another location to save the file to.
+                    </p>
+                </div>
+                <br>
+
+                <a href="#">>> Top of page</a>
+                <hr>
+            </div>
+            <br>
+
+            <div>
+                <img src="./Images/MusicPlayer.png">
+            </div>
+
+            <!-- Loading & saving playlists -->
+            <div>
+                <div>
+                    <h1>Loading & saving playlists</h1>
+                </div>
+
+                <div id="LoadPlaylist">
+                    <h3>Loading playlists</h3>
+                    <p>
+                        To load a playlist, go to File > Load Playlist.<br>
+                        Select an existing playlist from the Open File dialog window and click 'OK'.<br>
+                        The playlist will be displayed in the playlist window.
+                    </p>
+                </div>
+                <br>
+
+                <div id="SavePlaylist">
+                    <h3>Saving playlists</h3>
+                    <p>
+                        To save a playlist, go to File > Save Playlist.<br>
+                        If the currently opened playlist is an existing playlist it will be overwritten, otherwise the Save Playlist As<br>
+                        dialog window will appear.
+                    </p>
+                </div>
+                <br>
+
+                <div id="SavePlaylistAs">
+                    <h3>Saving playlists as...</h3>
+                    <p>
+                        To save a playlist to a specific location or file, go to File > Save Playlist As.<br>
+                        In the Save Playlist As dialog window, navigate to the directory you want to save the playlist in and click 'OK'.<br>
+                        The current playlist will be saved to the selected location.
+                    </p>
+                </div>
+                <br>
+
+                <a href="#">>> Top of page</a>
+                <hr>
+            </div>
+            <br>
+
+            <!-- Playlists -->
+            <div>
+                <div>
+                    <h1>Playlists</h1>
+                </div>
+
+                <div id="CreatePlaylist">
+                    <h3>Creating playlists</h3>
+                    <p>
+                        To create a new playlist, go to File > New Playlist. Enter a playlist name into the New Playlist dialog window and click 'OK'.
+                    </p>
+                </div>
+                <br>
+
+                <div id="AddSongs">
+                    <h3>Adding songs to a playlist</h3>
+                    <p>
+                        To add songs to a playlist, go to Playlist > Add Songs. Select the songs you want to add from the "Add Songs"<br>
+                        dialog window that appears and click 'OK'. The selected songs will be loaded into the current playlist.<br>
+                        If there are duplicate songs found an alert window will appear notifying the user of which songs have not been added.
+                    </p>
+                </div>
+                <br>
+
+                <div id="RemoveSongs">
+                    <h3>Removing songs from a playlist</h3>
+                    <p>
+                        To remove songs from a playlist, select a song in the playlist window, then go to Playlist > Remove Song.<br>
+                        The selected song will be removed from the current playlist.
+                    </p>
+                </div>
+                <br>
+
+                <div id="ClearPlaylist">
+                    <h3>Clearing all songs from a playlist</h3>
+                    <p>
+                        To clear all songs from a playlist, go to Playlist > Clear Songs. All songs in the playlist will be removed.
+                    </p>
+                </div>
+                <br>
+
+                <a href="#">>> Top of page</a>
+                <hr>
+            </div>
+            <br>
+            
+            <!-- Player controls -->
+            <div>
+                <div>
+                    <h1>Player Controls</h1>
+                </div>
+
+                <div id="PlaySong">
+                    <h3>Playing songs</h3>
+                    <p>
+                        To play a song, select the song from the playlist window and click the 'Play/Pause' button.<br>
+                        Alternatively, you can double-click on the song in the playlist.
+                    </p>
+                </div>
+                <br>
+
+                <div id="SkipSong">
+                    <h3>Previous/Next songs</h3>
+                    <p>
+                        To return to the previous song, click the "< <" button.<br>
+                        To skip to the next song, click the "> >" button.
+                    </p>
+                </div>
+                <br>
+
+                <a href="#">>> Top of page</a>
+                <hr>
+            </div>
+            <br>
+
+            <!-- Known bugs -->
+            <div id="Bugs">
+                <div>
+                    <h1>Known Bugs</h1>
+                </div>
+                <ul>
+
+                </ul>
+                <a href="#">>> Top of page</a>
+                <br>
+        </div>
+    </body>
+</html>
