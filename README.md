@@ -13,3 +13,10 @@ User credentials are verified on a central server and upon successful login, gra
 Please see the How-To Guide (Help > How-To Guide) for assistance in operating the application.
 
 Please forward feedback and bug reports to rpieri@live.com.au.
+
+<b>Server</b><br><br>
+![alt text](/Screenshots/Server/Started.png)
+
+<b>Client</b><br><br>
+![alt text](/Screenshots/Client/Login.png)
+![alt text](/Screenshots/Client/PlaySong.png)
